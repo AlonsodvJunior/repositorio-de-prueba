@@ -24,19 +24,25 @@ function x ( totalPages ) {
   for ( let num = 0; num <= totalPages; num++ ) {
     let firstDx = num * 6;
     let lastDx;
+    let button = document.createElement("button");
 
     if ( num === totalPages ) {
       if ( firstDx === filterCards.length - 1 ) {
         lastDx = "limit";
       } else {
-        lastDx = filterCards.length - 1;
+        lastDx = filterCards.length;
       }
     } else {
       lastDx = filterCards.length + 6;
+    }
 
-    let button = document.createElement("button");
-    button.cardsSrc;
-  }
+    if ( lastDx === "limit" ) { 
+      button.iframeSrc = [filterCards[filterCards.length - 1]];
+    } else {
+      button.iframeSrc = filterCards.slice (firstDx,lastDx);
+    }
+
+    
 
 }
 
