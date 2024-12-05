@@ -47,6 +47,7 @@ function x ( totalPages ) {
     };
 
     btnsCreated.push ( button )
+  }
 }
 
 function () {
