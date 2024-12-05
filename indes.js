@@ -19,8 +19,20 @@ let filterCards = [];
 let btnsCreated = [];
 
 
-function x (  ) {
+function x ( totalPages ) {
   
+  for ( let num = 0; num <= totalPages; num++ ) {
+    let firstDx = num * 6;
+    let lastDx;
+    if ( num === totalPages ) {
+      lastDx = filterCards.length - 1;
+    } else {
+      lastDx = firstDx + 6;
+    }
+
+    
+  }
+
 }
 
 function () {
