@@ -1,3 +1,15 @@
 const urlCards = [
-  "/cards/adelianaLora/adelianabbc.indexhtml"
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  "/cards/adelianaLora/adelianabbc.html",
+  
 ];
