@@ -42,8 +42,11 @@ function x ( totalPages ) {
       button.iframeSrc = filterCards.slice (firstDx,lastDx);
     }
 
-    
+    button.onclick = () => {
+      
+    };
 
+    btnsCreated.push ( button )
 }
 
 function () {
