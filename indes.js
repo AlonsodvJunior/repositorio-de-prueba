@@ -26,14 +26,16 @@ function x ( totalPages ) {
     let lastDx;
 
     if ( num === totalPages ) {
-      lastDx = filterCards.length - 1;
+      if ( firstDx === filterCards.length - 1 ) {
+        lastDx = "limit";
+      } else {
+        lastDx = filterCards.length - 1;
+      }
     } else {
-      lastDx = firstDx + 6;
-    }
+      lastDx = filterCards.length + 6;
 
     let button = document.createElement("button");
-    button.cardsSrc = filterCards.slice(firstDx,lastDx);
-    
+    button.cardsSrc;
   }
 
 }
