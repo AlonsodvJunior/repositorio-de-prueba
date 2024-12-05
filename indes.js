@@ -43,7 +43,7 @@ function () {
   
   if ( filterCards.length >= 6 ) {
 
-    totalPages = filterCards.length / 6;
+    totalPages = Math.ceil(filterCards.length / 6);
 
   } else {
 
